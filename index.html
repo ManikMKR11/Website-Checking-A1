@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rana Universe</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Rana Universe</h1>
+
+    <h2>Poem for Children</h2>
+    <p>Roses are red, Violets are blue, Here's a little poem, Just for you!</p>
+
+    <h2>Channels</h2>
+    <p>Visit my channels:</p>
+    <ul>
+        <li><a href="https://youtube.com/@RanaUniverse">Rana Universe on YouTube</a></li>
+        <li><a href="https://t.me/RanaUniverse">Rana Universe on Telegram</a></li>
+        <li><a href="https://youtube.com/@RanaUniverse123">Rana Universe 123 on YouTube</a></li>
+        <li><a href="https://facebook.com/RanaUniversePage">Rana Universe on Facebook</a></li>
+    </ul>
+
+    <h2>Download Files</h2>
+    <button id="showDownloads" class="show-button">Show Downloads</button>
+    <div id="downloads" style="display: none;">
+        <button class="file-type-button" data-target="images">Images</button>
+        <button class="file-type-button" data-target="pdfs">PDFs</button>
+        <button class="file-type-button" data-target="docx">Docx Files</button>
+        <button class="file-type-button" data-target="databases">Databases</button>
+        <div id="images" class="file-list">
+            <ul>
+                <li><a href="images/a.png" download>a.png</a></li>
+                <li><a href="images/b.png" download>b.png</a></li>
+                <li><a href="images/c.png" download>c.png</a></li>
+            </ul>
+        </div>
+        <div id="pdfs" class="file-list">
+            <ul>
+                <li><a href="pdfs/a.pdf" download>a.pdf</a></li>
+                <li><a href="pdfs/b.pdf" download>b.pdf</a></li>
+            </ul>
+        </div>
+        <div id="docx" class="file-list">
+            <ul>
+                <li><a href="docx/a.docx" download>a.docx</a></li>
+                <li><a href="docx/b.docx" download>b.docx</a></li>
+            </ul>
+        </div>
+        <div id="databases" class="file-list">
+            <ul>
+                <li><a href="databases/a.db" download>a.db</a></li>
+                <li><a href="databases/b.db" download>b.db</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
